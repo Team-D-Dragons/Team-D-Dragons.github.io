@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Drunken Dragons!</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Drunken Dragons" name="keywords">
+    <meta content="Free HTML Templates" name="description">
+
+    <!-- Favicon -->
+    <link href="img/Logo Beer Mug.png" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet"> 
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+   
+    <!-- Navbar Start -->
+    <div class="container-lg position-relative p-0 px-lg-2" style="z-index: 9;">
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark shadow-lg py-3 py-lg-0 pl-3 pl-lg-5">
+            <image src = "img/Drunken Dragons Logo.png" width="20%" position="absolute">
+            <div class="navbar-brand">
+                <image src = "img/blank.png" width="10%">
+            </div>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse" class="ml-auto">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-between px-3" id="navbarCollapse">
+                <div class="navbar-nav py-0">
+                    <a href="index.html" class="nav-item nav-link">Home</a>
+                    <a href="guide.html" class="nav-item nav-link">Rules</a>
+                    <a href="about.html" class="nav-item nav-link active">Cards</a>
+                    <a href="https://www.kickstarter.com/" class="nav-item nav-link">Kickstarter</a>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Follow Us</a>
+                        <div class="dropdown-menu border-0 rounded-0 m-0 bg-dark">
+                            <a href="https://discord.gg/TNRenrzA" class="dropdown-item"><i class="fab fa-discord"></i>  Discord</a>
+                            <a href="https://twitter.com/" class="dropdown-item"><i class="fab fa-twitter"></i>  Twitter</a>
+                            <a href="https://www.instagram.com/" class="dropdown-item"><i class="fab fa-instagram"></i>  Instagram</a>
+                            <a href="#" class="dropdown-item"><i class="fa fa-phone-alt"></i>  Trevor's Personal Phone Number</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+<!-- Navbar End -->
+
+
+<!--Fullscreen Viewer thing start-->
+<button id="xbutton" onclick="resetImg()" class="exitfullscreen">
+    <i style="font-size:6vw" class="fa">&#xf00d;</i>
+</button>
+<img id = "gradient" class="gradient" src="img/black wall.jpg">
+<!--Fullscreen Viewer End-->
+
+<!--Hero Showcase Start-->
+
+<!--Dragon-->
+    <div class="image-stack">
+        <div class="image-stack__item image-stack__item--top">
+          <img class="w-100" src="img/Julius, Beer Bard Legal.png" alt="Julius">
+        </div>
+        <div class="image-stack__item image-stack__item--bottom">
+          <img class="w-100" src="img/dragonbackground.jpg" alt="">
+        </div>
+        <div class="image-stack__item image-stack__item--smallcardleft">
+            <img class="w-100" src="img/Kegg of the Ancient Beer.png" alt="">
+        </div>
+        <div class="image-stack__item image-stack__item--smallcardright">
+            <img class="w-100" src="img/Blacked Out Kegg Dragon.png" alt="">
+        </div>
+        <div class="image-stack__item image-stack__item--title">
+            <div class="bg-julius p-3 p-lg-4 my-lg-4">
+                <h1 class="mb-3">Dragons</h1>
+                <p>Weild the power of the mightiest beasts in the land. Burn your foes to a crisp with the power of the almighty Dragons!</p>
+                <a href="#alldragon"><button onclick="readmoreDragon()" id="readmoreDragon">See All Cards</button></a>
+            </div>
+        </div>
+        
+    </div>
+    <div id="alldragon"><span id="dotsDragon"></span><span id="moreDragon">
+        <div id="all-cards">
+            <img id="D1" onclick="enlargeImg('D1')" src="img/1. Beer Dragons/Antioch the Devourer, Father of Kegg Dragons.png" class="padding" width="24.7%">
+            <img id="D2" onclick="enlargeImg('D2')" src="img/1. Beer Dragons/Baby Beer Dragon.png" class="padding" width="24.7%">
+            <img id="D3" onclick="enlargeImg('D3')" src="img/1. Beer Dragons/Beermage Apprentice.png" class="padding" width="24.7%">
+            <img id="D4" onclick="enlargeImg('D4')" src="img/1. Beer Dragons/Blacked Out Kegg Dragon.png" class="padding" width="24.7%">
+            <img id="D5" onclick="enlargeImg('D5')" src="img/1. Beer Dragons/Dumbass Dragon.png" class="padding" width="24.7%">
+            <img id="D6" onclick="enlargeImg('D6')" src="img/1. Beer Dragons/Hopticus, Beer Squire.png" class="padding" width="24.7%">
+            <img id="D7" onclick="enlargeImg('D7')" src="img/1. Beer Dragons/Hopticus, Knight of the Kegg.png" class="padding" width="24.7%">
+            <img id="D8" onclick="enlargeImg('D8')" src="img/1. Beer Dragons/Inebrius, Dark Beer Dragon.png" class="padding" width="24.7%%">
+            <img id="D9" onclick="enlargeImg('D9')" src="img/1. Beer Dragons/Kegg of the Ancient Beer.png" class="padding" width="24.7%">
+            <img id="D10" onclick="enlargeImg('D10')" src="img/1. Beer Dragons/Merlot, the Crossed Wizard of Woes.png" class="padding" width="24.7%">
+            <img id="D11" onclick="enlargeImg('D11')" src="img/1. Beer Dragons/Mounted Barback.png" class="padding" width="24.7%">
+            <img id="D12" onclick="enlargeImg('D12')" src="img/1. Beer Dragons/Raging Beer Dragon.png" class="padding" width="24.7%">
+            <img id="D13" onclick="enlargeImg('D13')" src="img/1. Beer Dragons/Sloshed Beer Dragon.png" class="padding" width="24.7%">
+            <img id="D14" onclick="enlargeImg('D14')" src="img/1. Beer Dragons/Sorcerer Of Beer.png" class="padding" width="24.7%">
+            <img id="D15" onclick="enlargeImg('D15')" src="img/1. Beer Dragons/Tipsy Beer Dragon.png" class="padding" width="24.7%">
+            <img id="D16" onclick="enlargeImg('D16')" src="img/1. Beer Dragons/Bar Fight.png" class="padding" width="24.7%">
+            <img id="D17" onclick="enlargeImg('D17')" src="img/1. Beer Dragons/Burn the Lightweight.png" class="padding" width="24.7%">
+            <img id="D18" onclick="enlargeImg('D18')" src="img/1. Beer Dragons/Cheers.png" class="padding" width="24.7%">
+            <img id="D19" onclick="enlargeImg('D19')" src="img/1. Beer Dragons/For Beer And Country.png" class="padding" width="24.7%">
+            <img id="D20" onclick="enlargeImg('D20')" src="img/1. Beer Dragons/Lair of Beer.png" class="padding" width="24.7%">
+            <img id="D21" onclick="enlargeImg('D21')" src="img/1. Beer Dragons/Merlot_s Final Blast.png" class="padding" width="24.7%">
+            <img id="D22" onclick="enlargeImg('D22')" src="img/1. Beer Dragons/Tap of the Ancients.png" class="padding" width="24.7%">
+            <img id="D23" onclick="enlargeImg('D23')" src="img/1. Beer Dragons/Crack the Kegg.png" class="padding" width="24.7%">
+            <img id="D24" onclick="enlargeImg('D24')" src="img/1. Beer Dragons/Curse of Hangover.png" class="padding" width="24.7%">
+            <img id="D25" onclick="enlargeImg('D25')" src="img/1. Beer Dragons/Knight_s Sacrifice.png" class="padding" width="24.7%">
+            <img id="D26" onclick="enlargeImg('D26')" src="img/1. Beer Dragons/Magic Trick.png" class="padding" width="24.7%">
+            <img id="D27" onclick="enlargeImg('D27')" src="img/1. Beer Dragons/Sidestep.png" class="padding" width="24.7%">
+        </div>
+    </div>
+    
+
+<!--Undead-->
+     <div class="image-stack">
+        <div class="image-stack__item image-stack__item--top">
+          <img class="w-100" src="img/Baba Yaga Legal.png" alt="Julius">
+        </div>
+        <div class="image-stack__item image-stack__item--bottom">
+          <img class="w-100" src="img/undeadbackground.jpg" alt="">
+        </div>
+        <div class="image-stack__item image-stack__item--smallcardleft">
+            <img class="w-100" src="img/Warlock Warlord.png" alt="">
+        </div>
+        <div class="image-stack__item image-stack__item--smallcardright">
+            <img class="w-100" src="img/Osseus, the Liquored Lich of Lies.png" alt="">
+        </div>
+        <div class="image-stack__item image-stack__item--title">
+            <div class="bg-babayaga p-3 p-lg-4 my-lg-4">
+                <h1 class="mb-3">Undead</h1>
+                <p>Haunt your foes with the powers of the departed. Lead forward with an onslaught of undead. Even the fastest cannot run forever.</p>
+                <a href="#allundead"><button onclick="readmoreUndead()" id="readmoreUndead">See All Cards</button></a>
+    
+            </div>
+        </div>
+    </div>
+    <div id="allundead"><span id="dotsUndead"></span><span id="moreUndead">
+        <div id="all-cards">
+            <img id="U1" onclick="enlargeImg('U1')" src="img/2. Undead/Dark Arts Fanatic.png" class="padding" width="24.7%">
+            <img id="U2" onclick="enlargeImg('U2')" src="img/2. Undead/Ghost.png" class="padding" width="24.7%">
+            <img id="U3" onclick="enlargeImg('U3')" src="img/2. Undead/Lucifer, Bringer of Death.png" class="padding" width="24.7%">
+            <img id="U4" onclick="enlargeImg('U4')" src="img/2. Undead/Osseus, the liquored Lich of Lies.png" class="padding" width="24.7%">
+            <img id="U5" onclick="enlargeImg('U5')" src="img/2. Undead/Psychic Medium.png" class="padding" width="24.7%">
+            <img id="U6" onclick="enlargeImg('U6')" src="img/2. Undead/Skeleton Goon.png" class="padding" width="24.7%">
+            <img id="U7" onclick="enlargeImg('U7')" src="img/2. Undead/Skeleton Knight.png" class="padding" width="24.7%">
+            <img id="U8" onclick="enlargeImg('U8')" src="img/2. Undead/Skeleton Reaper.png" class="padding" width="24.7%">
+            <img id="U9" onclick="enlargeImg('U9')" src="img/2. Undead/Skeleton Squire.png" class="padding" width="24.7%">
+            <img id="U10" onclick="enlargeImg('U10')" src="img/2. Undead/Squonk.png" class="padding" width="24.7%">
+            <img id="U11" onclick="enlargeImg('U11')" src="img/2. Undead/Underworld.png" class="padding" width="24.7%">
+            <img id="U12" onclick="enlargeImg('U12')" src="img/2. Undead/Warlock Warlord.png" class="padding" width="24.7%">
+            <img id="U13" onclick="enlargeImg('U13')" src="img/2. Undead/Zombie Crawler.png" class="padding" width="24.7%">
+            <img id="U14" onclick="enlargeImg('U14')" src="img/2. Undead/Zombie Goon.png" class="padding" width="24.7%">
+            <img id="U15" onclick="enlargeImg('U15')" src="img/2. Undead/Zombie Titan.png" class="padding" width="24.7%">
+            <img id="U16" onclick="enlargeImg('U16')" src="img/2. Undead/Anti-Magic Blast.png" class="padding" width="24.7%">
+            <img id="U17" onclick="enlargeImg('U17')" src="img/2. Undead/Bag of Bones.png" class="padding" width="24.7%">
+            <img id="U18" onclick="enlargeImg('U18')" src="img/2. Undead/Blood Pact.png" class="padding" width="24.7%">
+            <img id="U19" onclick="enlargeImg('U19')" src="img/2. Undead/Dark Ritual.png" class="padding" width="24.7%">
+            <img id="U20" onclick="enlargeImg('U20')" src="img/2. Undead/Drinking Game.png" class="padding" width="24.7%">
+            <img id="U21" onclick="enlargeImg('U21')" src="img/2. Undead/Rebirth.png" class="padding" width="24.7%">
+            <img id="U22" onclick="enlargeImg('U22')" src="img/2. Undead/Undead Uprising.png" class="padding" width="24.7%">
+            <img id="U23" onclick="enlargeImg('U23')" src="img/2. Undead/Watch the World Burn.png" class="padding" width="24.7%">
+            <img id="U24" onclick="enlargeImg('U24')" src="img/2. Undead/Drink through the pain.png" class="padding" width="24.7%">
+            <img id="U25" onclick="enlargeImg('U25')" src="img/2. Undead/Karma_s a Bitch.png" class="padding" width="24.7%">
+            <img id="U26" onclick="enlargeImg('U26')" src="img/2. Undead/Spooky Scary.png" class="padding" width="24.7%">
+            <img id="U27" onclick="enlargeImg('U27')" src="img/2. Undead/Undead Vengeance.png" class="padding" width="24.7%">
+        </div>
+    </span>
+    </div>
+
+<!--Brick-->
+     <div class="image-stack">
+        <div class="image-stack__item image-stack__item--top">
+          <img class="w-100" src="img/Archimedes Legal.png" alt="Julius">
+        </div>
+        <div class="image-stack__item image-stack__item--bottom">
+          <img class="w-100" src="img/brickbackground.jpg" alt="">
+        </div>
+        <div class="image-stack__item image-stack__item--smallcardleft">
+            <img class="w-100" src="img/Brick.png" alt="">
+        </div>
+        <div class="image-stack__item image-stack__item--smallcardright">
+            <img class="w-100" src="img/Lone Star Ranger.png" alt="">
+        </div>
+        <div class="image-stack__item image-stack__item--title">
+            <div class="bg-archimedes p-3 p-lg-4 my-lg-4">
+                <h1 class="mb-3">Bricks</h1>
+                <p>Don't be fooled by their meek demeanor. A simple stone in the right hands can take down even the greatest of Goliaths.</p>
+                <a href="#allBrick"><button onclick="readmoreBrick()" id="readmoreBrick">See All Cards</button></a>
+    
+            </div>
+        </div>
+    </div>
+    <div id="allBrick"><span id="dotsBrick"></span><span id="moreBrick">
+        <div id="all-cards">
+            <img id="b1" onclick="enlargeImg('b1')" src="img/3. Bricks/Bob.png" class="padding" width="24.7%">
+            <img id="b2" onclick="enlargeImg('b2')" src="img/3. Bricks/Brick.png" class="padding" width="24.7%">
+            <img id="b3" onclick="enlargeImg('b3')" src="img/3. Bricks/Construction of Peace.png" class="padding" width="24.7%">
+            <img id="b4" onclick="enlargeImg('b4')" src="img/3. Bricks/Construction of War.png" class="padding" width="24.7%">
+            <img id="b5" onclick="enlargeImg('b5')" src="img/3. Bricks/Drunk Employee.png" class="padding" width="24.7%">
+            <img id="b6" onclick="enlargeImg('b6')" src="img/3. Bricks/Dumbass Dragon.png" class="padding" width="24.7%">
+            <img id="b7" onclick="enlargeImg('b7')" src="img/3. Bricks/Forklift.png" class="padding" width="24.7%">
+            <img id="b8" onclick="enlargeImg('b8')" src="img/3. Bricks/Hammered Viking.png" class="padding" width="24.7%">
+            <img id="b9" onclick="enlargeImg('b9')" src="img/3. Bricks/Handy Reinforcement.png" class="padding" width="24.7%">
+            <img id="b10" onclick="enlargeImg('b10')" src="img/3. Bricks/Junkyard Scavenger.png" class="padding" width="24.7%">
+            <img id="b11" onclick="enlargeImg('b11')" src="img/3. Bricks/Lone Star Ranger.png" class="padding" width="24.7%">
+            <img id="b12" onclick="enlargeImg('b12')" src="img/3. Bricks/Plank.png" class="padding" width="24.7%">
+            <img id="b13" onclick="enlargeImg('b13')" src="img/3. Bricks/Rebar.png" class="padding" width="24.7%">
+            <img id="b14" onclick="enlargeImg('b14')" src="img/3. Bricks/Level Playing Field.png" class="padding" width="24.7%">
+            <img id="b15" onclick="enlargeImg('b15')" src="img/3. Bricks/Magical Misstep.png" class="padding" width="24.7%">
+            <img id="b16" onclick="enlargeImg('b16')" src="img/3. Bricks/Major Movement.png" class="padding" width="24.7%">
+            <img id="b17" onclick="enlargeImg('b17')" src="img/3. Bricks/Mild Movement.png" class="padding" width="24.7%">
+            <img id="b18" onclick="enlargeImg('b18')" src="img/3. Bricks/off the ledge.png" class="padding" width="24.7%">
+            <img id="b19" onclick="enlargeImg('b19')" src="img/3. Bricks/Rally.png" class="padding" width="24.7%">
+            <img id="b20" onclick="enlargeImg('b20')" src="img/3. Bricks/Rearrange.png" class="padding" width="24.7%">
+            <img id="b21" onclick="enlargeImg('b21')" src="img/3. Bricks/Reasonable Exchange.png" class="padding" width="24.7%">
+            <img id="b22" onclick="enlargeImg('b22')" src="img/3. Bricks/Recycling.png" class="padding" width="24.7%">
+            <img id="b23" onclick="enlargeImg('b23')" src="img/3. Bricks/Rise of the Useless.png" class="padding" width="24.7%">
+            <img id="b24" onclick="enlargeImg('b24')" src="img/3. Bricks/Bonk.png" class="padding" width="24.7%">
+            <img id="b25" onclick="enlargeImg('b25')" src="img/3. Bricks/Does Something.png" class="padding" width="24.7%">
+            <img id="b26" onclick="enlargeImg('b26')" src="img/3. Bricks/Last Resort.png" class="padding" width="24.7%">
+            <img id="b27" onclick="enlargeImg('b27')" src="img/3. Bricks/Shoddy Construction.png" class="padding" width="24.7%">
+        </div>
+    </span>
+    </div>
+
+
+<!--Healer-->
+    <div class="image-stack">
+        <div class="image-stack__item image-stack__item--top">
+        <img class="w-100" src="img/Dunstan Legal.png" alt="Julius">
+        </div>
+        <div class="image-stack__item image-stack__item--bottom">
+        <img class="w-100" src="img/healerbackground.jpg" alt="">
+        </div>
+        <div class="image-stack__item image-stack__item--smallcardleft">
+            <img class="w-100" src="img/Choir of Dunstan.png" alt="">
+        </div>
+        <div class="image-stack__item image-stack__item--smallcardright">
+            <img class="w-100" src="img/Saint Braustein.png" alt="">
+        </div>
+        <div class="image-stack__item image-stack__item--title">
+            <div class="bg-dunstan p-3 p-lg-4 my-lg-4">
+                <h1 class="mb-3">Healer</h1>
+                <p>Be embraced by the holy light. Healers specialize in warding off aggro and setting up for massive combos.</p>
+                <a href="#allHealer"><button onclick="readmoreHealer()" id="readmoreHealer">See All Cards</button></a>
+            </div>
+        </div>
+    </div>
+
+    <div id="allHealer"><span id="dotsHealer"></span><span id="moreHealer">
+        <div id="all-cards">
+            <img id="h1" onclick="enlargeImg('h1')" src="img/4. Healer/Archbishop_s Bell.png" class="padding" width="24.7%">
+            <img id="h2" onclick="enlargeImg('h2')" src="img/4. Healer/Burgess, Crazed Crusader.png" class="padding" width="24.7%">
+            <img id="h3" onclick="enlargeImg('h3')" src="img/4. Healer/Charismatic Con Artist.png" class="padding" width="24.7%">
+            <img id="h4" onclick="enlargeImg('h4')" src="img/4. Healer/Choir of Dunstan.png" class="padding" width="24.7%">
+            <img id="h5" onclick="enlargeImg('h5')" src="img/4. Healer/Drunken Mercenary.png" class="padding" width="24.7%">
+            <img id="h7" onclick="enlargeImg('h7')" src="img/4. Healer/Dunstan_s Devoted.png" class="padding" width="24.7%">
+            <img id="h8" onclick="enlargeImg('h8')" src="img/4. Healer/Eager Congregant.png" class="padding" width="24.7%">
+            <img id="h9" onclick="enlargeImg('h9')" src="img/4. Healer/Grave Guardian.png" class="padding" width="24.7%">
+            <img id="h10" onclick="enlargeImg('h10')" src="img/4. Healer/Grave of Saint Braustein.png" class="padding" width="24.7%">
+            <img id="h11" onclick="enlargeImg('h11')" src="img/4. Healer/Lord Inquisitor Tetra.png" class="padding" width="24.7%">
+            <img id="h12" onclick="enlargeImg('h12')" src="img/4. Healer/Mothman.png" class="padding" width="24.7%">
+            <img id="h13" onclick="enlargeImg('h13')" src="img/4. Healer/Saint Braustein.png" class="padding" width="24.7%">
+            <img id="h14" onclick="enlargeImg('h14')" src="img/4. Healer/Saint_s Cavalcade.png" class="padding" width="24.7%">
+            <img id="h15" onclick="enlargeImg('h15')" src="img/4. Healer/Stumbling Inquisitor.png" class="padding" width="24.7%">
+            <img id="h16" onclick="enlargeImg('h16')" src="img/4. Healer/Valiant Vicar.png" class="padding" width="24.7%">
+            <img id="h17" onclick="enlargeImg('h17')" src="img/4. Healer/Adrenaline.png" class="padding" width="24.7%">
+            <img id="h18" onclick="enlargeImg('h18')" src="img/4. Healer/Crusader_s Frenzy.png" class="padding" width="24.7%">
+            <img id="h19" onclick="enlargeImg('h19')" src="img/4. Healer/I hate math.png" class="padding" width="24.7%">
+            <img id="h20" onclick="enlargeImg('h20')" src="img/4. Healer/Light_s Blessing.png" class="padding" width="24.7%">
+            <img id="h21" onclick="enlargeImg('h21')" src="img/4. Healer/Restore or Ruin.png" class="padding" width="24.7%">
+            <img id="h22" onclick="enlargeImg('h22')" src="img/4. Healer/Whispered Prayer.png" class="padding" width="24.7%">
+            <img id="h23" onclick="enlargeImg('h23')" src="img/4. Healer/Worthy Sacrifice.png" class="padding" width="24.7%">
+            <img id="h24" onclick="enlargeImg('h24')" src="img/4. Healer/Divine Defender.png" class="padding" width="24.7%">
+            <img id="h25" onclick="enlargeImg('h25')" src="img/4. Healer/Drunk on the Job.png" class="padding" width="24.7%">
+            <img id="h26" onclick="enlargeImg('h26')" src="img/4. Healer/Dunstan_s Endurance.png" class="padding" width="24.7%">
+            <img id="h27" onclick="enlargeImg('h27')" src="img/4. Healer/Pain is Penance.png" class="padding" width="24.7%">
+            <img id="h6" onclick="enlargeImg('h6')" src="img/4. Healer/Phantom of Braustein.png" class="padding" width="24.7%">
+        </div>
+    </span>
+    </div>
+
+<!--Pirate-->
+    <div class="image-stack">
+        <div class="image-stack__item image-stack__item--top">
+        <img class="w-100" src="img/Dread Captain Bonnie Legal.png" alt="Julius">
+        </div>
+        <div class="image-stack__item image-stack__item--bottom">
+        <img class="w-100" src="img/pirate background.jpg" alt="">
+        </div>
+        <div class="image-stack__item image-stack__item--smallcardleft">
+            <img class="w-100" src="img/Pirate Scallywag.png" alt="">
+        </div>
+        <div class="image-stack__item image-stack__item--smallcardright">
+            <img class="w-100" src="img/Black Beard, The Ruthless Pirate.png" alt="">
+        </div>
+        <div class="image-stack__item image-stack__item--title">
+            <div class="bg-bonnie p-3 p-lg-4 my-lg-4">
+                <h1 class="mb-3">Pirates</h1>
+                <p>Steal you friends' drinks with Pirates! These rough rat scallions are a favorite among the scroundrels and theives of the world.</p>
+                <a href="#allPirate"><button onclick="readmorePirate()" id="readmorePirate">See All Cards</button></a>
+            </div>
+        </div>
+    </div>
+    <div id="allPirate"><span id="dotsPirate"></span><span id="morePirate">
+        <div id="all-cards">
+            <img id="p1" onclick="enlargeImg('p1')" src="img/5. Pirates/Beinners Luck.png" class="padding" width="24.7%">
+            <img id="p2" onclick="enlargeImg('p2')" src="img/5. Pirates/Black Beard, The Ruthless Pirate.png" class="padding" width="24.7%">
+            <img id="p3" onclick="enlargeImg('p3')" src="img/5. Pirates/Bophar, the Wasted Wizard of Wombo.png" class="padding" width="24.7%">
+            <img id="p4" onclick="enlargeImg('p4')" src="img/5. Pirates/Drunk Sailin_ Pirate.png" class="padding" width="24.7%">
+            <img id="p5" onclick="enlargeImg('p5')" src="img/5. Pirates/First Mate, Jack the Wily Pirate.png" class="padding" width="24.7%">
+            <img id="p6" onclick="enlargeImg('p6')" src="img/5. Pirates/Mage of Mystery.png" class="padding" width="24.7%">
+            <img id="p7" onclick="enlargeImg('p7')" src="img/5. Pirates/Nimble Assassin.png" class="padding" width="24.7%">
+            <img id="p8" onclick="enlargeImg('p8')" src="img/5. Pirates/Pirate Goon.png" class="padding" width="24.7%">
+            <img id="p9" onclick="enlargeImg('p9')" src="img/5. Pirates/Pirate Scallywag.png" class="padding" width="24.7%">
+            <img id="p10" onclick="enlargeImg('p10')" src="img/5. Pirates/Ship Stealin_ Pirate.png" class="padding" width="24.7%">
+            <img id="p11" onclick="enlargeImg('p11')" src="img/5. Pirates/Snallygaster.png" class="padding" width="24.7%">
+            <img id="p12" onclick="enlargeImg('p12')" src="img/5. Pirates/The Gambler.png" class="padding" width="24.7%">
+            <img id="p13" onclick="enlargeImg('p13')" src="img/5. Pirates/The Kraken.png" class="padding" width="24.7%">
+            <img id="p14" onclick="enlargeImg('p14')" src="img/5. Pirates/After-Party.png" class="padding" width="24.7%">
+            <img id="p15" onclick="enlargeImg('p15')" src="img/5. Pirates/Curiosity Kills.png" class="padding" width="24.7%">
+            <img id="p16" onclick="enlargeImg('p16')" src="img/5. Pirates/Dead Men Tell No Tales.png" class="padding" width="24.7%">
+            <img id="p17" onclick="enlargeImg('p17')" src="img/5. Pirates/Divebomb.png" class="padding" width="24.7%">
+            <img id="p18" onclick="enlargeImg('p18')" src="img/5. Pirates/Hero_s Requiem.png" class="padding" width="24.7%">
+            <img id="p19" onclick="enlargeImg('p19')" src="img/5. Pirates/I hate math.png" class="padding" width="24.7%">
+            <img id="p20" onclick="enlargeImg('p20')" src="img/5. Pirates/Lets FUckign go.png" class="padding" width="24.7%">
+            <img id="p21" onclick="enlargeImg('p21')" src="img/5. Pirates/Mad Lad.png" class="padding" width="24.7%">
+            <img id="p22" onclick="enlargeImg('p22')" src="img/5. Pirates/Ship Flip.png" class="padding" width="24.7%">
+            <img id="p23" onclick="enlargeImg('p23')" src="img/5. Pirates/Yoho Friendship.png" class="padding" width="24.7%">
+            <img id="p24" onclick="enlargeImg('p24')" src="img/5. Pirates/Cannonball.png" class="padding" width="24.7%">
+            <img id="p25" onclick="enlargeImg('p25')" src="img/5. Pirates/Down with the Ship.png" class="padding" width="24.7%">
+            <img id="p26" onclick="enlargeImg('p26')" src="img/5. Pirates/Full Sail Ahead.png" class="padding" width="24.7%">
+            <img id="p27" onclick="enlargeImg('p27')" src="img/5. Pirates/Gotcha Bitch.png" class="padding" width="24.7%">
+        </div>
+    </span>
+    </div>
+
+<!--Hero Showcase End-->
+
+    <!-- Footer Start -->
+    
+    <div class="container-fluid bg-dark text-white border-top py-4 px-sm-3 px-md-5" style="border-color: rgba(256, 256, 256, .1) !important;">
+        <div class="row">
+            <div class="col-lg-6 text-center text-md-left mb-3 mb-md-0">
+                <p class="m-0 text-white-50">Copyright &copy; <a href="#">Drunken Dragons LLC</a>. All Rights Reserved.</a>
+                </p>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5 ml-auto">
+                <h5 class="text-white text-uppercase mb-4" style="letter-spacing: 5px;">Contact Us</h5>
+                <p><a href="mailto:email@example.com, secondemail@example.com"><i class="fa fa-envelope mr-2"></i>DrunkenDragons@gmail.com</a></p>
+                
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script type="text/javascript">
+    function readmoreDragon(){
+        var dots = document.getElementById("dotsDragon");
+        var moreText = document.getElementById("moreDragon");
+        var btnText = document.getElementById("readmoreDragon");
+        
+        if (dots.style.display === "none") {
+                dots.style.display = "inline";
+                btnText.innerHTML = "See All Cards"; 
+                moreText.style.display = "none";
+        } else {
+                dots.style.display = "none";
+                btnText.innerHTML = "Hide Cards"; 
+                moreText.style.display = "inline";
+        }
+    }
+    </script>
+    <script type="text/javascript">
+        function readmoreUndead(){
+            var dots = document.getElementById("dotsUndead");
+            var moreText = document.getElementById("moreUndead");
+            var btnText = document.getElementById("readmoreUndead");
+            
+            if (dots.style.display === "none") {
+                    dots.style.display = "inline";
+                    btnText.innerHTML = "See All Cards"; 
+                    moreText.style.display = "none";
+            } else {
+                    dots.style.display = "none";
+                    btnText.innerHTML = "Hide Cards"; 
+                    moreText.style.display = "inline";
+            }
+        }
+        </script>
+    <script type="text/javascript">
+        function readmoreBrick(){
+            var dots = document.getElementById("dotsBrick");
+            var moreText = document.getElementById("moreBrick");
+            var btnText = document.getElementById("readmoreBrick");
+            
+            if (dots.style.display === "none") {
+                    dots.style.display = "inline";
+                    btnText.innerHTML = "See All Cards"; 
+                    moreText.style.display = "none";
+            } else {
+                    dots.style.display = "none";
+                    btnText.innerHTML = "Hide Cards"; 
+                    moreText.style.display = "inline";
+            }
+        }
+        </script>
+    <script type="text/javascript">
+        function readmoreHealer(){
+            var dots = document.getElementById("dotsHealer");
+            var moreText = document.getElementById("moreHealer");
+            var btnText = document.getElementById("readmoreHealer");
+            
+            if (dots.style.display === "none") {
+                    dots.style.display = "inline";
+                    btnText.innerHTML = "See All Cards"; 
+                    moreText.style.display = "none";
+            } else {
+                    dots.style.display = "none";
+                    btnText.innerHTML = "Hide Cards"; 
+                    moreText.style.display = "inline";
+            }
+        }
+        </script>
+    <script type="text/javascript">
+        function readmorePirate(){
+            var dots = document.getElementById("dotsPirate");
+            var moreText = document.getElementById("morePirate");
+            var btnText = document.getElementById("readmorePirate");
+            
+            if (dots.style.display === "none") {
+                    dots.style.display = "inline";
+                    btnText.innerHTML = "See All Cards"; 
+                    moreText.style.display = "none";
+            } else {
+                    dots.style.display = "none";
+                    btnText.innerHTML = "Hide Cards"; 
+                    moreText.style.display = "inline";
+            }
+        }
+    </script>
+    <script>
+        // Get the img object using its Id   
+        // Function to increase image size
+        function enlargeImg(id) {    
+            img = document.getElementById(id);
+          // Set image size to 1.5 times original
+            img.className = "fullpage";
+            document.getElementById("gradient").style.display = "block";
+            document.getElementById("xbutton").style.display = "block";
+        }
+        // Function to reset image size
+        function resetImg() {
+          // Set image size to original
+          img.className = "padding";
+          document.getElementById("gradient").style.display = "none";
+          document.getElementById("xbutton").style.display = "none";
+        }
+    </script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
